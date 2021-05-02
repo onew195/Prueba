@@ -1,3 +1,4 @@
+import { VillanoModule } from './villanos/villanos.module';
 import { ContadorModule } from './contador/contador.module';
 
 import { HeroesModule } from './heroes/heroes.module';
@@ -15,7 +16,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    VillanoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
